@@ -5,11 +5,12 @@
 }
 
 body {
-  background-color: rgb(48, 39, 39);
+  background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(186,17,105,1) 100%);
 }
 
 .title {
   display: flex;
+  color: mintcream;
   justify-content: center;
   font-family: 'AcmeRegular';
   font-size: 3em;
@@ -47,8 +48,9 @@ body {
 .slide-text {
   display: flex;
   justify-content: center;
+  color: mintcream;
   font-family: 'AcmeRegular';
-  font-size: 1rem;
+  font-size: 1.7rem;
 }
 
 img {
