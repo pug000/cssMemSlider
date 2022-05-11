@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'AcmeRegular';
+  src: url('./fonts/Acme/Acme-Regular.ttf');
+  font-weight: 400;
+}
+
 body {
   background-color: rgb(48, 39, 39);
 }
@@ -5,6 +11,8 @@ body {
 .title {
   display: flex;
   justify-content: center;
+  font-family: 'AcmeRegular';
+  font-size: 3em;
 }
 
 .container {
@@ -39,6 +47,8 @@ body {
 .slide-text {
   display: flex;
   justify-content: center;
+  font-family: 'AcmeRegular';
+  font-size: 1rem;
 }
 
 img {
