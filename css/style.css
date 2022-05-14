@@ -33,9 +33,7 @@ body {
 }
 
 .slider-items input {
-  visibility: hidden;
-  display: flex;
-  position: absolute;
+  display: none;
 }
 
 .slide {
@@ -47,10 +45,11 @@ body {
 
 .slide-text {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   color: mintcream;
   font-family: 'AcmeRegular';
   font-size: 1.7rem;
+  padding-left: 0.625rem;
 }
 
 img {
@@ -60,8 +59,10 @@ img {
 
 .slider__nav {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   gap: 0.313rem;
+  transform: translateY(-260%);
+  padding-right: 0.625rem;
 }
 
 .slider__nav-item {
