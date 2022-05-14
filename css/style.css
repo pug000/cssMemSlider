@@ -22,7 +22,6 @@ body {
   margin: 0 auto;
   border: 0.5rem solid rgba(255, 255, 255, 0.7);
   border-radius: 1%;
-  padding-bottom: 0.5em;
 }
 
 .slider-items {
@@ -50,6 +49,7 @@ body {
   font-family: 'AcmeRegular';
   font-size: 1.7rem;
   padding-left: 0.625rem;
+  margin-bottom: 0.8em;
 }
 
 img {
@@ -61,7 +61,7 @@ img {
   display: flex;
   justify-content: flex-end;
   gap: 0.313rem;
-  transform: translateY(-260%);
+  transform: translateY(-235%);
   padding-right: 0.625rem;
 }
 
@@ -92,4 +92,17 @@ img {
 
 #slide-4:checked ~ .s1 {
   margin-left: -75%;
+}
+
+
+@media (max-width:30rem) {
+  .slider__nav {
+    justify-content: center;
+    transform: translateY(-270%);
+  }
+
+  .slide-text {
+    transform: translateY(70%);
+    font-size: 1.4rem;
+  }
 }
