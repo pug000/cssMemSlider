@@ -85,6 +85,7 @@ img {
 #slide-2:checked ~ .slider__nav > #item2,
 #slide-3:checked ~ .slider__nav > #item3,
 #slide-4:checked ~ .slider__nav > #item4 {
+  border: 0.125rem solid rgba(186,17,105,1);
   background-color: #fff;
 }
 
